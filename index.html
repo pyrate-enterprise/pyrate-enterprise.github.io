@@ -338,12 +338,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Peça-nos contato</p>
-                            <form class="form-inline" method="post" action="mailto:pyrate.inc@gmail.com" enctype="text/plain">
+                            <p>Entre em contato</p>
+                            <!--action="mailto:pyrate.inc@gmail.com"-->
+                            <form method="POST" class="form-inline" enctype="text/plain">
+                                <!--<input type="hidden" id="recipient" value="taikamya@gmail.com">-->
+                                <!--<input type="hidden" id="email" value="pyrate.inc@gmail.com">-->
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="user-email" placeholder="Coloque seu e-mail aqui.">
+                                    <input type="text" class="form-control" id="user-email" placeholder="Coloque seu e-mail aqui.">
                                 </div>
-                                <button type="submit" class="btn ubutia-btn" for="email">Enviar</button>
+                                <!--<button type="submit" class="btn ubutia-btn" title="Enviar" for="email">Enviar</button>-->
+                                <!--<button type="submit" class="btn ubutia-btn" name="Enviar"><a href="mailto:pyrate.inc@gmail.com">Enviar</a></button>-->
+                                <button class="btn ubutia-btn" onclick="location.href='mailto:pyrate.inc@gmail.com';">Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -409,7 +414,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Design <font class="logo-icon"></font> by <!--<a href="https://www.freshdesignweb.com/">-->PyRate Inc.</a></p>
+                            <p>Design <font class="logo-icon"></font> by <!--<a href="https://www.freshdesignweb.com/"></a>-->PyRate Inc.</p>
                         </div>
                     </div>
                 </div>
