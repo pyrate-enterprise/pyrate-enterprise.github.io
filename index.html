@@ -320,7 +320,7 @@
                                 <div class="ubutia-card-content">
                                     <h3>Agostinha Matos</h3>
                                     <p>
-                                    A mente mais que brilhante por trás das ideias de divulgação.
+                                    A mente brilhante por trás das divulgações.
                                     </p>
                                     <div class="social-icons">
                                         <ul>
@@ -338,12 +338,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Peça-nos contato</p>
-                            <form class="form-inline" method="post" action="mailto:pyrate.inc@gmail.com" enctype="text/plain">
+                            <p>Entre em contato</p>
+                            <!-- action="mailto:pyrate.inc@gmail.com" -->
+                            <form class="gform" method="POST" enctype="text/plain" data-email="pyrate.inc@gmail.com" action="https://script.google.com/macros/s/AKfycbylImhnqO0yDtEhXUHq9KOUYe2Y1boh55LKDWzz4fc_Wjl3wtVL/exec">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="user-email" placeholder="Coloque seu e-mail aqui.">
+                                    <input type="text" class="form-control" name="email" placeholder="Coloque seu e-mail aqui.">
                                 </div>
-                                <button type="submit" class="btn ubutia-btn" for="email">Enviar</button>
+                                <button type="submit" class="btn ubutia-btn">Enviar</button>
+                                <!-- <button type="submit" class="btn ubutia-btn" name="Enviar"><a href="mailto:pyrate.inc@gmail.com">Enviar</a></button> -->
+                                <!-- <button class="btn ubutia-btn" onclick="location.href='mailto:pyrate.inc@gmail.com';">Enviar</button> -->
                             </form>
                         </div>
                     </div>
@@ -409,13 +412,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Design <font class="logo-icon"></font> by <!--<a href="https://www.freshdesignweb.com/">-->PyRate Inc.</a></p>
+                            <p>Design <font class="logo-icon"></font> by <!--<a href="https://www.freshdesignweb.com/"></a>-->PyRate Inc.</p>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
 
+        <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
         <script src="assets/js/jquery-3.1.1.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
