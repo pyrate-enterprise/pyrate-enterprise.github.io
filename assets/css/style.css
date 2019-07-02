@@ -283,7 +283,7 @@ section{
 }
 .menu-item ul{
 	padding-left: 0;
-	margin-bottom: 100;
+	margin-bottom: 0;
 }
 .menu-item ul a li{
 	padding: 15px 0;
@@ -296,7 +296,7 @@ section{
 	text-decoration: none;
 }
 .hide-menu{
-	margin-top: -290px;
+	margin-top: -190px;
 }
 .show-menu{
 	margin-top: 0;
